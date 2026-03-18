@@ -29,7 +29,7 @@ export default function Hero() {
             A 3ª maior rede de academias do Brasil abre as portas no coração de Pedreiras com quase 2.000m², equipamentos de última geração, totalmente climatizada e com estacionamento privativo. Garanta agora sua vaga de Aluno Fundador com preço exclusivo e presentes especiais.
           </p>
 
-          <CtaButton href="#">
+          <CtaButton href="#" className={"text-center"}>
             <LiaHandPointerSolid className="inline-block mr-2 text-white w-6 h-6 rotate-90" />
             Quero entrar no grupo VIP
           </CtaButton>
