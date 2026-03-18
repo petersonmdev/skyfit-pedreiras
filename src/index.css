@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky-primary: #002664;
+  --color-sky-secondary: #B9133E;
+  --font-sans: "Exo", sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
