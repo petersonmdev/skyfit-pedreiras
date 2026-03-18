@@ -1,4 +1,5 @@
 import CtaButton from "../components/CtaButton";
+import { LiaHandPointerSolid } from "react-icons/lia";
 
 export default function Opportunity() {
     return (
@@ -28,7 +29,8 @@ export default function Opportunity() {
                 </p>
 
                 <CtaButton href="#" className={"justify-center"}>
-                    👉 Quero entrar no grupo VIP
+                    <LiaHandPointerSolid className="inline-block mr-2 text-white w-6 h-6 rotate-90" />
+                    Quero entrar no grupo VIP
                 </CtaButton>
             </div>
         </section>

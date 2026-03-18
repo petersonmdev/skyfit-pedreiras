@@ -5,6 +5,7 @@ import TimePhoto from "../assets/images/time.jpg";
 import HorarioPhoto from "../assets/images/horario.jpg";
 import ModalidadesPhoto from "../assets/images/modalidades.jpg";
 import CtaButton from "../components/CtaButton";
+import { LiaHandPointerSolid } from "react-icons/lia";
 
 const photos = [
   { id: 1, url: EstruturePhoto, alt: "Estrutura Gigante", size: "col-span-2 md:row-span-3 row-span-1", title: "ESTRUTURA GIGANTE", text: "Quase 2.000m² de área total para você treinar com liberdade e sem stress." },
@@ -51,7 +52,8 @@ export default function Gallery() {
             </div>
 
             <CtaButton href="#" className={"justify-center"}>
-                👉 Quero entrar no grupo VIP
+                <LiaHandPointerSolid className="inline-block mr-2 text-white w-6 h-6 rotate-90" />
+                Quero entrar no grupo VIP
             </CtaButton>
         </div>
     </section>

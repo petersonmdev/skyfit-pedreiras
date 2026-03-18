@@ -1,5 +1,6 @@
 import CtaButton from "../components/CtaButton";
 import EstruturePhoto from "../assets/images/estrutura.jpg";
+import { LiaHandPointerSolid } from "react-icons/lia";
 
 export default function Hero() {
   return (
@@ -29,7 +30,8 @@ export default function Hero() {
           </p>
 
           <CtaButton href="#">
-            👉 Quero entrar no grupo VIP
+            <LiaHandPointerSolid className="inline-block mr-2 text-white w-6 h-6 rotate-90" />
+            Quero entrar no grupo VIP
           </CtaButton>
 
         </div>
